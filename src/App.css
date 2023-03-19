@@ -1,0 +1,148 @@
+/* .App {
+  display: block;
+} */
+
+.placeForChats {
+  display: flex;
+  margin: 10px 10px;
+  height: 100vh;
+}
+
+.chatBox {
+  width: 100%;
+  border: 1px solid #61dafb;
+  padding: 10px auto;
+  margin: 10px 0 0 auto;
+  color: white;
+  background:#21242b; 
+  -moz-box-shadow:0 0 30px #000; 
+  -webkit-box-shadow:0 0 30px #000; 
+  box-shadow:0 0 30px #000;
+  
+}
+
+.otherChats {
+  padding: 0 auto;
+  margin: 2px auto;
+}
+
+
+.bcgChat {
+  background-color: #e2e2e2;
+  /* width: 100%; */
+  margin: 0 80px;
+  padding: 10px 0;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.block {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+
+.headOfPages {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color:  white;
+  padding: 0 auto;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+
+}
+
+.linkStyle:hover {
+  
+  -moz-box-shadow:0 0 30px #21242b; 
+  -webkit-box-shadow:0 0 30px #21242b; 
+  box-shadow:0 0 30px #21242b;
+}
+
+.linkStyle:active {
+  color: aquamarine;
+  background-color: #21242b;
+  -moz-box-shadow:0 0 30px #21242b; 
+  -webkit-box-shadow:0 0 30px #21242b; 
+  box-shadow:0 0 30px #21242b;
+}
+
+
+.leftColumn {
+  display: flex;
+  color:black;
+  background-color: #61dafb;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px 200px;
+  padding: 0 0 0 10px;
+  text-align: left;
+  border-radius:10px 10px 10px 0;
+  max-width: 600px;
+}
+
+.rightColumn {
+  display: flex;
+  color: black;
+  background-color: white;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 0 10px 0 0;
+  flex-direction: column;
+  border-radius:10px 10px 0 10px;
+  max-width: 600px;
+  margin: 0 200px 0 auto;
+
+}
+
+.active {
+  color:rgb(103, 209, 174);
+  cursor:default;
+}
+
+.line {
+  border-bottom:1px solid rgb(103, 209, 174);
+}
+.footer {
+  color: white;
+  text-align: center;
+}

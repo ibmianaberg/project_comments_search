@@ -1,0 +1,78 @@
+@import url(../../components/Ui/Button/Button.css);
+
+.comments {
+    margin: 5rem 30rem auto 10rem;
+
+    &__input {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        align-items: center;
+        height: 100%;
+        height: 2rem;
+        
+        &--text {
+            min-width: 90%;
+        }
+
+        &--name {
+            height: 2rem;
+        }
+
+        &--date {
+            height: 2rem;
+        }
+    }
+    
+    &__like {display: flex;
+        justify-content: end;
+        align-items: center;
+        color: white;
+        
+
+        & button {
+            max-height: 2rem;
+            margin-left: 10rem;
+            background-image: url(../../img/Like.png);
+        height: 3rem;
+        width: 3rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        max-width: 10rem;
+        }
+    }
+    
+    &__viewport {
+        background-color: black;
+        color: white;
+        width: 90%;
+    }
+}
+
+.button {
+    display: flex; 
+    color:aquamarine;
+    background-color: #282c34;
+    padding: 5px 5px;
+    margin: 5px auto;
+  }
+  
+.button:hover {
+    background:#21242b; 
+    -moz-box-shadow:0 0 30px #000; 
+    -webkit-box-shadow:0 0 30px #000; 
+    box-shadow:0 0 30px #000;
+  }
+  
+.button:active {
+    background-color: #000;
+  }
+  
+.button_count {
+    /* flex-wrap: nowrap; */
+    display:flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+  }
+  

@@ -1,0 +1,27 @@
+.button {
+    display: flex; 
+    color:aquamarine;
+    background-color: #282c34;
+    padding: 5px 5px;
+    margin: 5px auto;
+    /* position: relative; */
+  }
+  
+  .button:hover {
+    background:#21242b; 
+    -moz-box-shadow:0 0 30px #000; 
+    -webkit-box-shadow:0 0 30px #000; 
+    box-shadow:0 0 30px #000;
+  }
+  
+  .button:active {
+    background-color: #000;
+  }
+  
+  .button_count {
+    /* flex-wrap: nowrap; */
+    display:flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+  }
+  
